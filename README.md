@@ -39,6 +39,16 @@ The workflow covers data quality validation, financial KPIs, conversion funnel a
 5. **A/B testing:** Compare checkout purchase-conversion proportions with a two-sided Z-test at α = 0.05.
 6. **Power BI reporting:** Explore financial performance, category and product results, and product-level drill-through details.
 
+### Explore the Full Analysis
+
+The complete Jupyter Notebook documents the six
+analytical stages, including data validation,
+financial performance, SQL-based conversion and
+retention analysis, A/B testing, and business
+recommendations.
+
+**[View the Complete Jupyter Notebook](notebooks/RappiPlus_Business_Analytics_GitHub.ipynb)**
+
 ## Selected Results
 
 ### Commercial performance
