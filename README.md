@@ -115,6 +115,30 @@ specific product categories and reporting periods.
 *Figure 2. Product sales volume, interactive filtering,
 and transaction-level profitability analysis.*
 
+### Product Detail | Drill-through Analysis
+
+The drill-through page allows users to investigate
+individual products directly from the sales analysis
+dashboard. It displays product-specific units sold,
+revenue, gross profit, and transaction-level records,
+helping identify potential profitability issues.
+
+The example below focuses on **Laptop-Gaming-16GB**,
+which generated approximately 1.09 million USD in
+revenue but recorded a gross loss of 91,419.48 USD,
+representing a gross margin of -8.38%.
+
+This finding highlights the importance of evaluating
+product profitability alongside sales volume and
+supports further investigation into pricing, discounts,
+and product costs.
+
+![RappiPlus Product Drill-through Dashboard](images/rappiplus_product_drillthrough.png)
+
+*Figure 3. Product-level drill-through analysis
+highlighting negative gross profitability for
+Laptop-Gaming-16GB.*
+
 ## Recommendations
 
 - Investigate the pricing, discounts and unit costs of `Laptop-Gaming-16GB` to understand its persistent gross losses.
