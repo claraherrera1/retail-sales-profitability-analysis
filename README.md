@@ -174,11 +174,22 @@ The datasets retain documented missing values and data-quality limitations to pr
 
 This repository includes the complete Jupyter Notebook, cleaned commercial datasets, the Power BI report, dashboard screenshots, and project documentation.
 
-The Python analysis requires a compatible Python environment and the libraries used in the notebook, including `pandas`, `sqlalchemy`, and `statsmodels`. A PostgreSQL-compatible driver is required for database connections.
-
 The commercial datasets are available in the [`data/`](data/) directory. Database-backed funnel and retention analyses rely on the TripleTen academic PostgreSQL environment and require authorized access. Without that access, visitors can still review the documented SQL methodology and previously validated results.
 
 The Power BI report can be downloaded from the [`powerbi/`](powerbi/) directory and opened with Power BI Desktop. Users may need to update the local CSV file paths to refresh the report.
+### Python Environment Setup
+
+To install the Python dependencies used in this project, clone the repository and run:
+
+```bash
+git clone https://github.com/claraherrera1/retail-sales-profitability-analysis.git
+cd retail-sales-profitability-analysis
+pip install -r requirements.txt
+```
+Open the Jupyter Notebook in the `notebooks/` directory using a compatible Jupyter environment. The installation command provides the project's analysis dependencies; Jupyter Notebook or JupyterLab must also be available to run the `.ipynb` file.
+
+**Note:** The commercial CSV datasets are available in the `data/` directory. Some notebook steps use external academic data sources and PostgreSQL queries that require authorized access. Users may need to configure local file paths or data connections before running the analysis.
+
 
 ## Project Context
 
