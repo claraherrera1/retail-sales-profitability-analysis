@@ -115,38 +115,36 @@ products and includes a transaction-level table displaying
 order IDs, product names, quantities, revenue, known
 product costs, and calculated gross profit.
 
-Conditional formatting helps highlight differences in gross
-profitability, while the filters allow users to explore
+Conditional formatting helps highlight differences in gross profitability, while the filters allow users to explore
 specific product categories and reporting periods.
 
 ![RappiPlus Sales Detail Dashboard](images/rappiplus_sales_detail_dashboard.png)
 
-*Figure 2. Product sales volume, interactive filtering,
-and transaction-level profitability analysis.*
+*Figure 2. Product sales volume, interactive filtering, and transaction-level profitability analysis.*
 
 ### Product Detail | Drill-through Analysis
 
-The drill-through page allows users to investigate
-individual products directly from the sales analysis
-dashboard. It displays product-specific units sold,
-revenue, gross profit, and transaction-level records,
-helping identify potential profitability issues.
+The drill-through page allows users to investigate individual products directly from the sales analysis dashboard. It displays product-specific units sold,
+revenue, gross profit, and transaction-level records, helping identify potential profitability issues.
 
-The example below focuses on **Laptop-Gaming-16GB**,
-which generated approximately 1.09 million USD in
-revenue but recorded a gross loss of 91,419.48 USD,
+The example below focuses on **Laptop-Gaming-16GB**, which generated approximately 1.09 million USD in revenue but recorded a gross loss of 91,419.48 USD,
 representing a gross margin of -8.38%.
 
-This finding highlights the importance of evaluating
-product profitability alongside sales volume and
-supports further investigation into pricing, discounts,
-and product costs.
+This finding highlights the importance of evaluating product profitability alongside sales volume and
+supports further investigation into pricing, discounts, and product costs.
 
 ![RappiPlus Product Drill-through Dashboard](images/rappiplus_product_drillthrough.png)
 
-*Figure 3. Product-level drill-through analysis
-highlighting negative gross profitability for
-Laptop-Gaming-16GB.*
+*Figure 3. Product-level drill-through analysis highlighting negative gross profitability for Laptop-Gaming-16GB.*
+
+### Download the Power BI Report
+
+The complete Power BI report is available for download and includes the data model, DAX measures, interactive dashboards, and product-level drill-through functionality.
+**[Download Power BI Report (.pbix)](powerbi/RappiPlus_Business_Analytics.pbix)**
+
+*Requirements: Power BI Desktop. The report uses local
+CSV data sources; users may need to update the file
+paths to refresh the data after downloading.*
 
 ## Recommendations
 
