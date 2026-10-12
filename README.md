@@ -91,7 +91,7 @@ profitability, monthly performance trends,
 year-to-date revenue, and gross profit by
 product category.
 
-![RappiPlus Executive Dashboard](images/rappiplus_executive_dashboard.png)
+![RappiPlus Executive Dashboard](images/Rappiplus_executive_dashboard.png)
 
 *Figure 1. Executive overview of sales performance,
 estimated profitability, and gross profit by
