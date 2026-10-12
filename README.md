@@ -80,8 +80,7 @@ The report contains three pages:
 2. **Sales Detail | Product Analysis** — Product sales volume, detailed records and interactive date/category filters.
 3. **Product Detail** — Drill-through page with selected-product revenue, quantities, costs and gross profit.
 
-*Dashboard screenshots and the `.pbix` file will be added to the repository after the final publication review.*
-### Executive Overview | Sales & Profitability
+The Power BI report includes three analytical pages: an executive overview, product-level sales analysis, and an interactive drill-through page. Screenshots are provided below to illustrate the report's design, key metrics, and analytical capabilities.
 
 The executive dashboard provides a consolidated view
 of RappiPlus's commercial performance from January
