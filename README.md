@@ -96,6 +96,25 @@ product category.
 *Figure 1. Executive overview of sales performance,
 estimated profitability, and gross profit by
 product category.*
+
+### Sales Detail | Product Analysis
+
+This dashboard provides a detailed view of product-level
+sales performance, with interactive filters for product
+category and date range. It compares units sold across
+products and includes a transaction-level table displaying
+order IDs, product names, quantities, revenue, known
+product costs, and calculated gross profit.
+
+Conditional formatting helps highlight differences in gross
+profitability, while the filters allow users to explore
+specific product categories and reporting periods.
+
+![RappiPlus Sales Detail Dashboard](images/rappiplus_sales_detail_dashboard.png)
+
+*Figure 2. Product sales volume, interactive filtering,
+and transaction-level profitability analysis.*
+
 ## Recommendations
 
 - Investigate the pricing, discounts and unit costs of `Laptop-Gaming-16GB` to understand its persistent gross losses.
