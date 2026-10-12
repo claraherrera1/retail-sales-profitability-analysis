@@ -166,14 +166,26 @@ Laptop-Gaming-16GB.*
 - The PostgreSQL source is an academic environment with restricted access. SQL analyses may require authorized credentials and cannot be assumed to run for all repository visitors.
 
 ## Data Sources
+### Project Datasets
 
-- `rappiplus_orders_raw.csv` — Orders and transaction details
-- `rappiplus_catalog.csv` — Product catalog and costs
-- `rappiplus_marketing_spend.csv` — Marketing expenditure
-- PostgreSQL: `events`, `users`, `user_activity` — Behavioral and cohort analysis
-- `experiment_checkout_ui.csv` — Checkout experiment
+The cleaned datasets used for the commercial performance
+analysis and Power BI dashboards are available in the
+[`data/`](data/) directory.
 
-**Publication note:** Source data and cleaned exports should be included only after confirming redistribution permission. No database passwords, private URLs or other credentials should be committed.
+| Dataset | Description |
+|---|---|
+| [`orders_clean.csv`](data/orders_clean.csv) | Cleaned transaction records, including orders, quantities, prices, discounts, and revenue. |
+| [`catalog_clean.csv`](data/catalog_clean.csv) | Product catalog containing categories, unit costs, and supplier information. |
+| [`marketing_clean.csv`](data/marketing_clean.csv) | Marketing expenditure records used to evaluate overall estimated profitability. |
+
+The SQL-based conversion funnel and cohort retention
+analyses use PostgreSQL tables from the TripleTen
+academic environment. These tables are not included
+in this repository, and reproducing those queries
+requires authorized database access.
+
+The datasets retain documented missing values and data-quality limitations to preserve analytical transparency.
+
 
 ## Repository and Reproducibility
 
