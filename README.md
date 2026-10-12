@@ -1,7 +1,4 @@
-# retail-sales-profitability-analysis
-End-to-end retail sales and profitability analysis using Python and Power BI, featuring data cleaning, KPI validation, interactive dashboards, and actionable business insights.
 # RappiPlus | From Data to Business Decisions
-
 **End-to-end business analytics project | Python · SQL · Power BI · A/B Testing**
 
 ## Project Overview
@@ -90,29 +87,18 @@ The report contains three pages:
 2. **Sales Detail | Product Analysis** — Product sales volume, detailed records and interactive date/category filters.
 3. **Product Detail** — Drill-through page with selected-product revenue, quantities, costs and gross profit.
 
-The Power BI report includes three analytical pages: an executive overview, product-level sales analysis, and an interactive drill-through page. Screenshots are provided below to illustrate the report's design, key metrics, and analytical capabilities.
 
-The executive dashboard provides a consolidated view
-of RappiPlus's commercial performance from January
-to June 2025. It highlights total revenue, known
-product costs, marketing expenditure, estimated
-profitability, monthly performance trends,
-year-to-date revenue, and gross profit by
-product category.
+The executive dashboard provides a consolidated view of RappiPlus's commercial performance from January to June 2025. It highlights total revenue, known
+product costs, marketing expenditure, estimated profitability, monthly performance trends, year-to-date revenue, and gross profit by product category.
 
 ![RappiPlus Executive Dashboard](images/Rappiplus_executive_dashboard.png)
 
-*Figure 1. Executive overview of sales performance,
-estimated profitability, and gross profit by
-product category.*
+*Figure 1. Executive overview of sales performance, estimated profitability, and gross profit by product category.*
 
 ### Sales Detail | Product Analysis
 
-This dashboard provides a detailed view of product-level
-sales performance, with interactive filters for product
-category and date range. It compares units sold across
-products and includes a transaction-level table displaying
-order IDs, product names, quantities, revenue, known
+This dashboard provides a detailed view of product-level sales performance, with interactive filters for product
+category and date range. It compares units sold across products and includes a transaction-level table displaying order IDs, product names, quantities, revenue, known
 product costs, and calculated gross profit.
 
 Conditional formatting helps highlight differences in gross profitability, while the filters allow users to explore
@@ -163,8 +149,7 @@ paths to refresh the data after downloading.*
 - Marketing expenditure is evaluated at the overall business level; it is **not attributed to products or categories**.
 - The PostgreSQL source is an academic environment with restricted access. SQL analyses may require authorized credentials and cannot be assumed to run for all repository visitors.
 
-## Data Sources
-### Project Datasets
+## Project Datasets
 
 The cleaned datasets used for the commercial performance
 analysis and Power BI dashboards are available in the
@@ -187,9 +172,13 @@ The datasets retain documented missing values and data-quality limitations to pr
 
 ## Repository and Reproducibility
 
-The finalized repository will provide the translated Jupyter notebook, a Power BI report, selected screenshots and documentation. Local execution requires Python with `pandas`, `sqlalchemy`, `statsmodels` and a PostgreSQL driver compatible with the notebook's connection string. Power BI Desktop is needed to open the `.pbix` file.
+This repository includes the complete Jupyter Notebook, cleaned commercial datasets, the Power BI report, dashboard screenshots, and project documentation.
 
-Database-backed steps require access to the academic PostgreSQL server. If that access is unavailable, the notebook still documents the SQL logic and the previously validated results, but those queries cannot be rerun without an authorized data source.
+The Python analysis requires a compatible Python environment and the libraries used in the notebook, including `pandas`, `sqlalchemy`, and `statsmodels`. A PostgreSQL-compatible driver is required for database connections.
+
+The commercial datasets are available in the [`data/`](data/) directory. Database-backed funnel and retention analyses rely on the TripleTen academic PostgreSQL environment and require authorized access. Without that access, visitors can still review the documented SQL methodology and previously validated results.
+
+The Power BI report can be downloaded from the [`powerbi/`](powerbi/) directory and opened with Power BI Desktop. Users may need to update the local CSV file paths to refresh the report.
 
 ## Project Context
 
